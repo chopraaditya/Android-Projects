@@ -66,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Reset(View view) {
 
-        EditText num1  = (EditText) findViewById(R.id.num1View);
-        EditText num2 = (EditText) findViewById(R.id.num2View);
-        TextView result = (TextView) findViewById(R.id.resultVIew);
+        EditText num1  = findViewById(R.id.num1View);
+        EditText num2 = findViewById(R.id.num2View);
+        TextView result = findViewById(R.id.resultVIew);
 
         num1.setText("");
         num2.setText("");
